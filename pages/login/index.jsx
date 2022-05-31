@@ -1,5 +1,6 @@
 import React from 'react';
 import { Header } from '../../components/layout/Header';
+import Head from 'next/head';
 import isServer from '../../components/isServer';
 export default function Login() {
     if (isServer()) return null;
