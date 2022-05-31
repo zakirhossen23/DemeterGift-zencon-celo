@@ -128,7 +128,7 @@ export default function Donation() {
             <Head>
                 <title>Donation</title>
                 <meta name="description" content="Donation" />
-                <link rel="icon" href="/Logo.svg" />
+                <link rel="icon" href="/favicon.ico" />
             </Head>
 
             <div className='DonationBar row'>

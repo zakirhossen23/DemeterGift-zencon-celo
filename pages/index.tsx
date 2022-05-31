@@ -2,6 +2,7 @@ import React from 'react';
 import NavLink from 'next/link';
 import { useRouter } from 'next/router';
 import { Header } from '../components/layout/Header'
+import Head from 'next/head';
 
 declare let window: any;
 export default function Welcome() {
@@ -22,6 +23,11 @@ export default function Welcome() {
 		}
 	}
 	return (<>
+		<Head>
+			<title>DemeterGift</title>
+			<meta name="description" content="DemeterGift" />
+			<link rel="icon" href="/favicon.ico" />
+		</Head>
 		<Header></Header>
 		<div className="welcome mb-5">
 			<div className="welcome row" style={{ flexDirection: 'column', alignItems: 'center' }}>
