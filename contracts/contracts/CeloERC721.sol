@@ -23,7 +23,6 @@ contract CeloERC721 is ERC721 {
 		ERC721(name, symbol)
 	{}
 
-
 	function claimToken(
 		address _claimer,
 		string memory _tokenURI,

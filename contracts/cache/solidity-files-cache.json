@@ -439,8 +439,8 @@
       ]
     },
     "H:\\Codes\\Next\\DemeterGift-zencon-celo\\contracts\\contracts\\CeloERC721.sol": {
-      "lastModificationDate": 1654610446974,
-      "contentHash": "254fe4d12ca7fcec914fe5691da813e8",
+      "lastModificationDate": 1654613757359,
+      "contentHash": "f0fd971b8f2e850ebbaf6812dd4a3b9c",
       "sourceName": "contracts/CeloERC721.sol",
       "solcConfig": {
         "version": "0.8.6",
